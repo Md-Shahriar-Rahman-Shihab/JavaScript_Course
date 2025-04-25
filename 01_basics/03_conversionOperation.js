@@ -184,13 +184,13 @@ console.log(gameCounter2); //101
 let x = 3;
 const y = x++; //The value of y get x value then the value of  x is increment so x=4, y= 3
 
-console.log(`x:${x}, y:${y}`);
+console.log(`x:${x}, y:${y}`); //template string
 // Expected output: "x:4, y:3" 
 
 let a = 3;
 const b = ++a; //before, increment the value of a , then the value of  a is assinge to b so a =4 b =4
 
-console.log(`a:${a}, b:${b}`);
+console.log(`a:${a}, b:${b}`); //template string
 // Expected output: "a:4, b:4"
 
 
@@ -200,13 +200,13 @@ console.log(`a:${a}, b:${b}`);
 let x1 = 3;
 const y1 = x--;
 
-console.log(`x:${x1}, y:${y1}`);
+console.log(`x:${x1}, y:${y1}`); //template string
 // Expected output: "x1:2, y1:3"
 
 let a1 = 3;
 const b1 = --a;
 
-console.log(`a:${a1}, b:${b1}`);
+console.log(`a:${a1}, b:${b1}`); //template string
 // Expected output: "a1:2, b1:2"
 
 
