@@ -43,6 +43,35 @@ console.log(typeof myFunction); //function object
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
+//*****************************************Stack & Heap Memory ****************************************/
+
+//Stack [Primitive] - call by value
+let myYoutubeName = "Shihab";
+let anotherName = myYoutubeName;
+anotherName = "Shahriar"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+ 
+//Heap [Non Primitive] - call by reference
+
+let userOne = {
+    email: "user@google.com",
+    bkash: "01711122233"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "shihab@google.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+
+
+
+
+
 /**
         Type            Passed By               real value change?
 
@@ -55,3 +84,5 @@ console.log(typeof myFunction); //function object
 
     *****Objects (arrays, functions, objects) ➝ passed by reference to the value (more precisely, the reference itself is passed by value — you can    mutate the object but not reassign the reference)
  */
+
+
