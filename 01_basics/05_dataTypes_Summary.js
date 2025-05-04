@@ -41,3 +41,17 @@ console.log(typeof myFunction); //function object
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+/**
+        Type            Passed By               real value change?
+
+    number, string	    call by value	        No❌
+    object, array	    call by reference	    No✅
+
+
+
+    *****Primitives (number, string, boolean, null, undefined, symbol, bigint) ➝ passed by value
+
+    *****Objects (arrays, functions, objects) ➝ passed by reference to the value (more precisely, the reference itself is passed by value — you can    mutate the object but not reassign the reference)
+ */
